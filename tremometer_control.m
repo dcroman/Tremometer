@@ -14,34 +14,19 @@
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%   This bit imports a day's worth         %
-%   of filtered and instrument-corrected   %
-%   data using Haney's code                %
-%                                          %
-%   Remove for public version              %                                                                                               *******************************
-%   IMPORTANT - make sure Haney plot       %
-%   is off if using this!                  %
-%                                          %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-rm_instrum_resp_ppp
-clear badvals digout digoutf fhi flo fsize idelay ordh ordl ovrsampl pols rawdata scrsz y zers
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   Set the following variables            %
 %   (or leave as default values)           %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 
-x=prcdata;      		%Assign one day of (instrument-corrected and filtered) data to x
-yr=2014;			%Set start date (four digit year) of input data
-mo=12;				%Set start date (two digit month) of input data
-dy=02;				%Set start date (two digit day) of input data
-fs=100;          		%set sampling frequency (in Hz)
-minfreq=0.5;    		%set the minimum frequency of the fundamental (in Hz). Default is 0.5 Hz
-minHSI=30;       		%set the minimum Harmonic Strength Index for fundamental and two overtones. Default is 30. 
+x=load('example.asc');      		%Assign one day of (instrument-corrected and filtered) data to x
+yr=2014;			                  %Set start date (four digit year) of input data
+mo=12;				                  %Set start date (two digit month) of input data
+dy=02;				                  %Set start date (two digit day) of input data
+fs=40;          		            %set sampling frequency (in Hz)
+minfreq=0.5;    		            %set the minimum frequency of the fundamental (in Hz). Default is 0.5 Hz
+minHSI=30;       		            %set the minimum Harmonic Strength Index for fundamental and two overtones. Default is 30. 
 
 
 
