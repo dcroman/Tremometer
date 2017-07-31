@@ -75,7 +75,7 @@ end
 % First, must meet all three of the following conditions to assign an interharmonic, otherwise it gets a zero:
 % harmIdx has two values for each harmonic - for an interharmonic to be calculated all of the numbers in column 1 have to be unique and all of the numbers in column 2 have to be unique (first two conditions)
 % all of the numbers in harmIdx also have to be real numbers, not NANs (third condition)
-% This is a kludge and I should see if there's a better way to deal with it..........
+% This is kludgy but it works. 
 
 for i=1:(nHarm-1)
     if length(unique(harmIdx(:,1)))==nHarm && length(unique(harmIdx(:,2)))==nHarm && ~any(isnan(harmIdx(:,1)))
