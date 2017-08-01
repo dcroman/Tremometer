@@ -27,7 +27,7 @@ dy=22;				                  %Set start date (two digit day) of input data
 fs=40;          		            %set sampling frequency (in Hz)
 minfreq=0.5;    		            %set the minimum frequency of the fundamental (in Hz). Default is 0.5 Hz
 minHSI=30;       		            %set the minimum Harmonic Strength Index for fundamental and two overtones. Default is 30. 
-
+calmodeflag=1;                  %Toggle periodogram plots on (1) or off (0). Default is on (1).
 
 
 
@@ -135,7 +135,8 @@ ylabel('Frequency (Hz)')
 xlabel('Time of Day')
 %end
 
-%Calibration mode - make Figure 1c for all detections
+%Calibration mode - make periodogram plot for all detections
+if calmodeflag==1;
 for j=1:s
 if final(j,19) == 1
 figure
@@ -149,6 +150,7 @@ hold('on')
 plot(final(j,1:3),final(j,5:7),'*')
 ylabel('Power')
 xlabel('Frequency (Hz)')
+end
 end
 end
 
