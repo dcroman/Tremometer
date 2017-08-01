@@ -29,6 +29,7 @@ The next two parameters describe the criteria for detection of harmonic tremor:
 7. minHSI - set the minimum allowed Harmonic Strength Index for the fundamental and first two overtones. Default is 30. 
 
 The final parameter toggles whether a periodogram is displayed for each detected minute of tremor. 
+
 8. calmodeflag - Toggle periodogram plots on (1) or off (0). Default is on (1). 
 
 OPERATION
