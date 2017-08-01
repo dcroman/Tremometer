@@ -23,7 +23,7 @@
 x=load('example.asc');      		%Assign one day of (instrument-corrected and filtered) data to x
 yr=2015;			                  %Set start date (four digit year) of input data
 mo=03;				                  %Set start date (two digit month) of input data
-dy=03;				                  %Set start date (two digit day) of input data
+dy=22;				                  %Set start date (two digit day) of input data
 fs=40;          		            %set sampling frequency (in Hz)
 minfreq=0.5;    		            %set the minimum frequency of the fundamental (in Hz). Default is 0.5 Hz
 minHSI=30;       		            %set the minimum Harmonic Strength Index for fundamental and two overtones. Default is 30. 
