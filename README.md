@@ -62,4 +62,4 @@ TO BE ADDED TO FUTURE VERSIONS
 3. More/better plotting options
 
 KNOWN BUGS (to be fixed in future versions): 
-It's still throwing 'Index exceeds matrix dimensions' errors occasionally. See for ex December 8 in PV6 data. 
+It still (rarely) throws 'Index exceeds matrix dimensions' errors. Sometimes because data is not one full day. Add a workaround for this. 
