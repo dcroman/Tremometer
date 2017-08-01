@@ -156,5 +156,5 @@ end
 
 
 %tidy up
-clear date detection_times dy endpt F fs fund_freq harm_freq_1 harm_freq_2 harm_freq_3 harm_pow_1 harm_pow_2 harm_pow_3 harm_pow_4 harmfreq harmpow harmstrength hline HSI_1 HSI_2 HSI_3 i ind1 interharmpow interharm_pow_1 interharm_pow_2 interharm_pow_3 j minfreq minHSI mo n nHarm prcdata Pxx s samplrate snip startpt t t1 t2 temp_detections w x yr
+clear calmodeflag date detection_times dy endpt F fs fund_freq harm_freq_1 harm_freq_2 harm_freq_3 harm_pow_1 harm_pow_2 harm_pow_3 harm_pow_4 harmfreq harmpow harmstrength hline HSI_1 HSI_2 HSI_3 i ind1 interharmpow interharm_pow_1 interharm_pow_2 interharm_pow_3 j minfreq minHSI mo n nHarm prcdata Pxx s samplrate snip startpt t t1 t2 temp_detections w x yr
 
