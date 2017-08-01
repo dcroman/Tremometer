@@ -3,7 +3,7 @@ in continuous seismic data.
 
 Last modified: July 31, 2017
 
-For details on the analysis method, please read (and cite): Roman, D.C. (2017), Automated detection and characterization of harmonic tremor in continuous seismic data. Geophys. Res. Lett.,44,doi: 10.1002/2017GL073715.
+For details on the analysis method, please read (and cite): Roman, D.C. (2017), Automated detection and characterization of harmonic tremor in continuous seismic data. Geophys. Res. Lett., 44, doi: 10.1002/2017GL073715.
 
 Report bugs or suggestions for future releases to droman@carnegiescience.edu. 
 
