@@ -1,4 +1,4 @@
-README for Tremometer 1.0 - Matlab code to automatically detect and characterize harmonic tremor 
+README for Tremometer 1.0 - Matlab code for automatic detection and characterization of harmonic tremor 
 in continuous seismic data.
 
 Last modified: July 31, 2017
