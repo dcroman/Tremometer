@@ -39,7 +39,7 @@ Once the control parameters have been set, execute the code by running tremomete
 
 
 EXAMPLE
-An example of one day of instrument-corrected, bandpass-filtered (0.5-20Hz) seismic data containing multiple episodes of harmonic tremor is provided as 'example.asc'. To run as an example, download this file and unzip it, place it in a directory with tremometer_control.m and tremometer.m, edit tremometer_control.m to set fs=40 and x=example.asc, and run tremometer_control.m at the command line. You can also adjust parameters 6 and 7 to see the effect on the number of detections. 
+An example of one day of instrument-corrected, bandpass-filtered (0.5-20Hz) seismic data containing multiple episodes of harmonic tremor is provided as 'example.asc'. To run as an example, download this file and unzip it, place it in a directory with tremometer_control.m and tremometer.m, edit tremometer_control.m to set fs=40 and x=example.asc, and run tremometer_control.m at the Matlab command line. You can also adjust parameters 6 and 7 to see the effect on the number of detections. 
 
 
 OUTPUT
