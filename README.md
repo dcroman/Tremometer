@@ -25,6 +25,7 @@ The first five parameters describe the seismic data to be analyzed:
 5. fs - Set sampling frequency (in Hz). 
 
 The next two parameters describe the criteria for detection of harmonic tremor: 
+
 6. minfreq - set the minimum allowed frequency of the fundamental (in Hz). Default is 0.5 Hz
 7. minHSI - set the minimum allowed Harmonic Strength Index for the fundamental and first two overtones. Default is 30. 
 
