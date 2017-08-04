@@ -5,7 +5,7 @@ Last modified: July 31, 2017
 
 For details on the analysis method, please read (and cite): Roman, D.C. (2017), Automated detection and characterization of harmonic tremor in continuous seismic data. Geophys. Res. Lett., 44, doi: 10.1002/2017GL073715.
 
-PLEASE NOTE: The Matlab Signal Processing Toolbox must be installed to run this code. 
+PLEASE NOTE: Requires Matlab R2013b or later including the Matlab Signal Processing Toolbox.
 
 Report bugs or suggestions for future releases to droman@carnegiescience.edu. 
 
