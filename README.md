@@ -1,11 +1,11 @@
 README for Tremometer 1.0 - Matlab code for automatic detection and characterization of harmonic tremor 
 in continuous seismic data.
 
-Last modified: July 31, 2017
+Last modified: August 23, 2017
 
 For details on the analysis method, please read (and cite): Roman, D.C. (2017), Automated detection and characterization of harmonic tremor in continuous seismic data. Geophys. Res. Lett., 44, doi: 10.1002/2017GL073715.
 
-PLEASE NOTE: Requires Matlab R2013b or later including the Matlab Signal Processing Toolbox.
+PLEASE NOTE: Requires Matlab R2013b or later including the Matlab Signal Processing and Stats Toolboxes.
 
 Report bugs or suggestions for future releases to droman@carnegiescience.edu. 
 
@@ -63,6 +63,8 @@ TO BE ADDED TO FUTURE VERSIONS
 2. Advanced options to check a variable number of harmonics, allow different HSI detection thresholds for each harmonic, set the number of consecutive minutes of tremor required for a detection. 
 
 3. More/better plotting options
+
+4. Reduction of toolbox dependencies. 
 
 KNOWN BUGS (to be fixed in future versions): 
 It still (rarely) throws 'Index exceeds matrix dimensions' errors. Sometimes because data is not one full day. Add a workaround for this. 
