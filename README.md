@@ -66,5 +66,7 @@ TO BE ADDED TO FUTURE VERSIONS
 
 4. Reduction of toolbox dependencies. 
 
+5. Port to ObsPy (some day...)
+
 KNOWN BUGS (to be fixed in future versions): 
 It still (rarely) throws 'Index exceeds matrix dimensions' errors. Sometimes because data is not one full day. Add a workaround for this. 
