@@ -27,7 +27,7 @@ dy=22;				                  %Set start date (two digit day) of input data
 fs=40;          		            %set sampling frequency (in Hz)
 minfreq=0.5;    		            %set the minimum frequency of the fundamental (in Hz). Default is 0.5 Hz
 minHSI=30;       		            %set the minimum Harmonic Strength Index for fundamental and two overtones. Default is 30. 
-calmodeflag=1;                  %Toggle periodogram plots on (1) or off (0). Default is on (1).
+calmodeflag=0;                  %Toggle periodogram plots on (1) or off (0). Default is on (1).
 
 
 
@@ -125,8 +125,9 @@ plot(t,final(:,12))
 datetick('x')
 ylabel('Harmonic Strength Index')
 xlabel('Time of Day')
-hline=refline([0 minHSI]);
-hline.Color = 'r';
+%hline=refline([0 minHSI]);
+%hline.Color = 'r';
+yline(minHSI);
 %end
 
 figure
